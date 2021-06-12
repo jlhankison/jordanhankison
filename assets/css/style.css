@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #371BB1;
+    --secondary-color: #05F4B7;
+    --tertiary-color: #12151F;
+}
+
+* {
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header start */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    text-shadow: 0px 0px 10px rgba(2, 244, 183, .75);
+}
+
+header nav {
+    margin: 15px 0;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+/* header end */
+
+/* footer */
+footer {
+    background: var(--tertiary-color);
+    font-size: 15px;
+    margin: 0;
+}
+
+footer h2{
+    text-align: center;
+    color: var(--secondary-color);
+}
+footer img {
+    width: 100px;
+    margin: 10px auto 0px auto;
+    padding: 0 0 15px;
+    display: block;
+}
+/* end footer */
+
+.hero {
+    background-image: url("../images/jordanHankison.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about-me {
+    width: 30%;
+    margin: 4%;
+}
+
+.about-me h2 {
+    font-size: 30px;
+    padding: 0 0 5px 15px;
+}
