@@ -77,7 +77,8 @@ footer img {
 
 .hero {
     background-image: url("../images/jordanHankison.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-position: 110px;
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
@@ -85,7 +86,7 @@ footer img {
 }
 
 .about-me {
-    width: 30%;
+    width: 40%;
     margin: 4%;
 }
 
@@ -93,3 +94,59 @@ footer img {
     font-size: 30px;
     padding: 0 0 5px 15px;
 }
+
+.about-me p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.section-title {
+    font-size: 50px;
+    text-align: center;
+    margin: 15px 0 8px 0;
+    color: var(--secondary-color);
+    width: 80%;
+    padding: 20px;
+}
+
+.portfolio {
+    background-color: var(--tertiary-color);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project {
+    margin: 20px;
+    color: var(--secondary-color);
+    width: 40%;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+}
+.project a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.project img {
+    border-radius: 30px;
+    border: 4px solid var(--secondary-color);
+}
+
+#capstoneProject {
+    width: 80%;
+    /* margin: 0; */
+}
+
+#capstoneProject a {
+    text-align: center;
+    font-size: 30px;
+}
+
+#capstoneProject img {
+    width: 100%;
+}
+
+
