@@ -28,7 +28,7 @@
     </header>
     
     <section class="hero">
-        <div class="about-me">
+        <div class="about-me" id="about-me">
             <!-- need to add photo of me in css as hero background -->
             <h2>About Me</h2>
             <p>
@@ -37,7 +37,7 @@
             </p>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="section-title">
             <h2>Project Portfolio</h2>
         </div>
@@ -60,23 +60,44 @@
                 <img src="./assets/images/Placeholder.svg" alt="placeholder image">
             </a>
         </div>
+        <div class="project">
+            <a href="https://github.com/jlhankison">
+                <h3>Project four</h3>
+                <img src="./assets/images/Placeholder.svg" alt="placeholder image">
+            </a>
+        </div>
     </section>
-    <section class="contact-info">
-        <div>
+    <section class="contact-info" id="contact-info">
+        <div class="contact-elements">
             <h3>Jordan Hankison</h3>
-            <address>
-                <!-- Add more contact info here -->
-                P: 715.303.8637<br/>
-                E: <a href="mailto:jlhankison@gmail.com">jlhankison@gmail.com</a>
-            </address>
+            <div class="contact-element">
+                <address>
+                    Phone: 715.303.8637
+                </address>
+            </div>
+            <div class="contact-element">
+                <address>
+                    Email: <a href="mailto:jlhankison@gmail.com">jlhankison@gmail.com</a>
+                </address>
+            </div>
+            <div class="contact-element">
+                <a href="www.linkedin.com/in/jlhankison">
+                    Linkedin
+                </a>
+            </div>
+            <div class="contact-element">
+                <a href="https://github.com/jlhankison">
+                    Github
+                </a>
+            </div>
         </div>
     </section>
 
     <footer>
-        <h2>Built by yours truly</h2>
         <div class="sail-logo">
             <img src="./assets/images/sail.svg" alt="Sail logo">
         </div>
+        <h2>Built by yours truly</h2>
     </footer>
 </body>
 </html>
