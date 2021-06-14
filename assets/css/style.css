@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #371BB1;
-    --secondary-color: #05F4B7;
-    --tertiary-color: #12151F;
+    --primary-color: #b0b1b5;
+    --secondary-color: #4a4b4f;
+    --tertiary-color: #8a6056;
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -19,7 +19,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -35,7 +35,7 @@ header h1 {
 header a {
     text-decoration: none;
     color: var(--secondary-color);
-    text-shadow: 0px 0px 10px rgba(2, 244, 183, .75);
+    text-shadow: 2px -3px 4px rgba(74, 75, 79, .75);
 }
 
 header nav {
@@ -77,8 +77,8 @@ footer img {
 
 .hero {
     background-image: url("../images/jordanHankison.jpg");
-    background-size: 100%;
-    background-position: 110px;
+    background-size: cover;
+    background-position: 80%;
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
@@ -86,13 +86,16 @@ footer img {
 }
 
 .about-me {
-    width: 40%;
+    width: 35%;
     margin: 4%;
 }
 
 .about-me h2 {
+    border-bottom: 2px solid var(--secondary-color);
     font-size: 30px;
-    padding: 0 0 5px 15px;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    width: 60%;
 }
 
 .about-me p {
@@ -111,11 +114,12 @@ footer img {
 }
 
 .portfolio {
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-bottom: 4px solid var(--secondary-color);
 }
 
 .project {
@@ -149,4 +153,9 @@ footer img {
     width: 100%;
 }
 
+.contact-info {
+    background-color: var(--tertiary-color);
+    text-align: center;
+    color: var(--secondary-color);
+}
 
